@@ -19,7 +19,7 @@ PROCEDURE:
    ![318347009-6881dbeb-686d-4a10-a17e-fe9cb11ae4d3](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/9deb32ac-0b51-487d-b6e3-ddc142316086)
 
 VERILOG CODE
-
+```
 module logicgate(a,b,andgate,orgate,nandgate,norgate,xorgate,xnorgate,notgate);
 
 input a,b;
@@ -41,7 +41,7 @@ xnor(xnorgate,a,b);
 not(notgate,a);
 
 endmodule
-
+```
 OUTPUT WAVEFORM
 ![318347230-7496d74e-e18b-472e-96e0-f0de0e8ce4d2](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/9b16eb75-02ba-44a1-ad0e-4359269df4f1)
 
@@ -121,7 +121,9 @@ endmodule
 
 OUTPUT WAVEFORM
 
-[318348159-3e2416fe-b489-4e2a-925b-cf1b011b99d5](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/28b69f3d-2023-4db4-89e5-488353cd52f8)
+![318348159-3e2416fe-b489-4e2a-925b-cf1b011b99d5](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/430a0f39-4391-45f8-bd71-d4c419ceb863)
+
+
 
 
 FULL SUBTRACTOR LOGIC DIAGRAM
@@ -160,7 +162,7 @@ RIPPLE CARRY ADDER LOGIC DIAGRAM
 ![318348492-e7a32599-b9ed-4f79-a00c-ee58657e5e07](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/78dd9f9f-173f-4eb2-8a41-28607e1b7180)
 
 VERILOG CODE
-
+```
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -187,7 +189,7 @@ fulladder f6(a[5], b[5], w[5], s[5], w[6]);
 fulladder f7(a[6], b[6], w[6], s[6], w[7]);
 fulladder f8(a[7], b[7], w[7], s[7], cout);
 endmodule
-
+```
 OUTPUT WAVEFORM
 
 ![318348668-c49e900c-4cda-4b35-a768-b613cf48fa3e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/ace5e1b9-8646-4663-92a6-970889baf4ec)
