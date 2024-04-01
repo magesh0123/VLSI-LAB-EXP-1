@@ -93,11 +93,14 @@ or(carry,w2,w3);
 
 endmodule
 OUTPUT WAVEFORM
-![318347957-a056df39-4f5d-40ce-b697-b7457efbc14e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/c7ca419c-322a-464f-b14a-d5766a9c328a)
+
+![318347957-a056df39-4f5d-40ce-b697-b7457efbc14e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/b917f2c4-9e8b-46c6-9ba7-ede00114b606)
+
 
 **HALF SUBTRACTOR
 
 LOGIC DIAGRAM**
+
 ![318348072-2d7824ed-0b1f-4ea0-bafc-1753a75d2b74](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/514f5c56-a79b-4384-88ae-f7ea48028f8f)
 
 
@@ -118,6 +121,7 @@ OUTPUT WAVEFORM
 
 
 FULL SUBTRACTOR LOGIC DIAGRAM
+
 ![318348261-5acb458d-4b6d-418c-bfcb-fba40635778a](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/a3f19950-af23-46c1-939c-8844fe71b3f8)
  
 VERILOG CODE
@@ -145,6 +149,7 @@ OUTPUT WAVEFORM
 
 
 RIPPLE CARRY ADDER LOGIC DIAGRAM
+
 ![318348492-e7a32599-b9ed-4f79-a00c-ee58657e5e07](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/78dd9f9f-173f-4eb2-8a41-28607e1b7180)
 
 VERILOG CODE
@@ -175,7 +180,9 @@ fulladder f6(a[5], b[5], w[5], s[5], w[6]);
 fulladder f7(a[6], b[6], w[6], s[6], w[7]);
 fulladder f8(a[7], b[7], w[7], s[7], cout);
 endmodule
+
 OUTPUT WAVEFORM
+
 ![318348668-c49e900c-4cda-4b35-a768-b613cf48fa3e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/ace5e1b9-8646-4663-92a6-970889baf4ec)
 
 
