@@ -12,4 +12,4 @@ fulladder u5(S[4], w5,X[4], Y[4], w4);
 fulladder u6(S[5], w6,X[5], Y[5], w5);
 fulladder u7(S[6], w7,X[6], Y[6], w6);
 fulladder u8(S[7], Cout,X[7], Y[7], w7);
-endmoduleExp1_Ripplecarryadder_4bit.v
+endmodule
