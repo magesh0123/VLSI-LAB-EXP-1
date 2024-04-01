@@ -1,23 +1,25 @@
 SIMULATION OF LOGIC GATES ,ADDERS AND SUBTRACTORS
 
 AIM: 
-To simulate Logic Gates ,Adders and Subtractors using Vivado 2023.2.
+     To simulate Logic Gates ,Adders and Subtractors using Vivado 2023.2.
 
 APPARATUS REQUIRED: 
-VIVADO 2023.2
+                   VIVADO 2023.2
 
 PROCEDURE: 
-STEP:1 Start the Xilinx navigator, Select and Name the New project. 
-STEP:2 Select the device family, device, package and speed.
-STEP:3 Select new source in the New Project and select Verilog Module as the Source type. 
-STEP:4 Type the File Name and Click Next and then finish button. Type the code and save it. 
-STEP:5 Select the Behavioral Simulation in the Source Window and click the check syntax. 
-STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table. 
+         STEP:1 Start the Xilinx navigator, Select and Name the New project. 
+         STEP:2 Select the device family, device, package and speed.
+         STEP:3 Select new source in the New Project and select Verilog Module                type. 
+         STEP:4 Type the File Name and Click Next and then finish button. Type the code and save  it. 
+         STEP:5 Select the Behavioral Simulation in the Source Window and click the check syntax. 
+         STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table. 
    
    LOGIC GATES LOGIC DIAGRAM 
+  
    ![318347009-6881dbeb-686d-4a10-a17e-fe9cb11ae4d3](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/9deb32ac-0b51-487d-b6e3-ddc142316086)
 
 VERILOG CODE
+
 module logicgate(a,b,andgate,orgate,nandgate,norgate,xorgate,xnorgate,notgate);
 
 input a,b;
@@ -116,7 +118,9 @@ xor(diff,a,b);
 and(borrow,~a,b);
 
 endmodule
+
 OUTPUT WAVEFORM
+
 [318348159-3e2416fe-b489-4e2a-925b-cf1b011b99d5](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/28b69f3d-2023-4db4-89e5-488353cd52f8)
 
 
@@ -125,6 +129,7 @@ FULL SUBTRACTOR LOGIC DIAGRAM
 ![318348261-5acb458d-4b6d-418c-bfcb-fba40635778a](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/a3f19950-af23-46c1-939c-8844fe71b3f8)
  
 VERILOG CODE
+
 module fs(a,b,bin,d,bout);
 
 input a,b,bin;
@@ -144,7 +149,9 @@ and(w3,~w1,bin);
 or(bout,w3,w2);
 
 endmodule
+
 OUTPUT WAVEFORM
+
 ![318348391-76f82a16-843e-4211-bed4-a698fe62a884](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/14899548-5476-4b71-ab9b-bc0a2ade848e)
 
 
