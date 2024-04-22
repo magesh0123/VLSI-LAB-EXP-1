@@ -1,14 +1,14 @@
-SIMULATION OF LOGIC GATES ,ADDERS AND SUBTRACTORS
+# SIMULATION OF LOGIC GATES ,ADDERS AND SUBTRACTORS
 
-AIM: 
+# AIM: 
 
      To simulate Logic Gates ,Adders and Subtractors using Vivado 2023.2.
 
-APPARATUS REQUIRED:
+# APPARATUS REQUIRED:
 
                VIVADO 2023.2
 
-PROCEDURE: 
+# PROCEDURE: 
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -26,11 +26,12 @@ PROCEDURE:
 8. Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
 
 9. View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
-   LOGIC GATES LOGIC DIAGRAM 
+
+# LOGIC GATES LOGIC DIAGRAM 
   
    ![318347009-6881dbeb-686d-4a10-a17e-fe9cb11ae4d3](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/9deb32ac-0b51-487d-b6e3-ddc142316086)
 
-VERILOG CODE
+# VERILOG CODE
 ```
 module logicgate(a,b,andgate,orgate,nandgate,norgate,xorgate,xnorgate,notgate);
 
@@ -54,15 +55,13 @@ not(notgate,a);
 
 endmodule
 ```
-OUTPUT WAVEFORM
+# OUTPUT WAVEFORM
 ![318347230-7496d74e-e18b-472e-96e0-f0de0e8ce4d2](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/9b16eb75-02ba-44a1-ad0e-4359269df4f1)
 
-**HALF ADDER
-
-LOGIC DIAGRAM**
+**HALF ADDER LOGIC DIAGRAM**
 ![318347383-8fa622b5-5e52-40f0-9690-833ffb2d832b](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/74dca018-5e8f-4a7d-98a3-4b5367a256f1)
 
-VERILOG CODE
+# VERILOG CODE
 
 module half_adder(a,b,sum,carry);
 
@@ -76,16 +75,14 @@ and g2(carry,a,b);
 
 endmodule 
 
-OUTPUT WAVEFORM
+# OUTPUT WAVEFORM
 ![318347595-6ccd3005-54bb-40bc-9e5b-90def2406528](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/cdadff86-6fd4-427c-a953-d967734b178f)
 
-**FULL ADDER
-
-LOGIC DIAGRAM**
+**FULL ADDER LOGIC DIAGRAM**
 
 ![318347750-592a4aee-fa19-4a49-a089-51045851fe19](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/42a6a3cf-0a76-4e60-9b42-b915b1c9fa90)
 
-VERILOG CODE
+# VERILOG CODE
 
 module fulladder(a,b,c,sum,carry);
 
@@ -106,19 +103,17 @@ and(w3,a,b);
 or(carry,w2,w3);
 
 endmodule
-OUTPUT WAVEFORM
+# OUTPUT WAVEFORM
 
 ![318347957-a056df39-4f5d-40ce-b697-b7457efbc14e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/b917f2c4-9e8b-46c6-9ba7-ede00114b606)
 
 
-**HALF SUBTRACTOR
-
-LOGIC DIAGRAM**
+**HALF SUBTRACTOR LOGIC DIAGRAM**
 
 ![318348072-2d7824ed-0b1f-4ea0-bafc-1753a75d2b74](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/514f5c56-a79b-4384-88ae-f7ea48028f8f)
 
 
-VERILOG CODE
+# VERILOG CODE
 module halfsub(a,b,diff,borrow);
 
 input a,b;
@@ -131,18 +126,18 @@ and(borrow,~a,b);
 
 endmodule
 
-OUTPUT WAVEFORM
+# OUTPUT WAVEFORM
 
 ![318348159-3e2416fe-b489-4e2a-925b-cf1b011b99d5](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/430a0f39-4391-45f8-bd71-d4c419ceb863)
 
 
 
 
-FULL SUBTRACTOR LOGIC DIAGRAM
+# FULL SUBTRACTOR LOGIC DIAGRAM
 
 ![318348261-5acb458d-4b6d-418c-bfcb-fba40635778a](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/a3f19950-af23-46c1-939c-8844fe71b3f8)
  
-VERILOG CODE
+# VERILOG CODE
 
 module fs(a,b,bin,d,bout);
 
@@ -164,16 +159,16 @@ or(bout,w3,w2);
 
 endmodule
 
-OUTPUT WAVEFORM
+# OUTPUT WAVEFORM
 
 ![318348391-76f82a16-843e-4211-bed4-a698fe62a884](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/14899548-5476-4b71-ab9b-bc0a2ade848e)
 
 
-RIPPLE CARRY ADDER LOGIC DIAGRAM
+# RIPPLE CARRY ADDER LOGIC DIAGRAM
 
 ![318348492-e7a32599-b9ed-4f79-a00c-ee58657e5e07](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/78dd9f9f-173f-4eb2-8a41-28607e1b7180)
 
-VERILOG CODE
+# VERILOG CODE
 ```
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
@@ -202,12 +197,12 @@ fulladder f7(a[6], b[6], w[6], s[6], w[7]);
 fulladder f8(a[7], b[7], w[7], s[7], cout);
 endmodule
 ```
-OUTPUT WAVEFORM
+# OUTPUT WAVEFORM
 
 ![318348668-c49e900c-4cda-4b35-a768-b613cf48fa3e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/ace5e1b9-8646-4663-92a6-970889baf4ec)
 
 
-result
+# result
 
 simulation of Logic Gates ,Adders and Subtractors using Vivado 2023.2 completed successfully
 
