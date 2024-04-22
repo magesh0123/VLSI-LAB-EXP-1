@@ -1,9 +1,11 @@
 SIMULATION OF LOGIC GATES ,ADDERS AND SUBTRACTORS
 
 AIM: 
+
      To simulate Logic Gates ,Adders and Subtractors using Vivado 2023.2.
 
-APPARATUS REQUIRED: 
+APPARATUS REQUIRED:
+
                VIVADO 2023.2
 
 PROCEDURE: 
