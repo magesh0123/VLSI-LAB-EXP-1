@@ -4,15 +4,18 @@ AIM:
      To simulate Logic Gates ,Adders and Subtractors using Vivado 2023.2.
 
 APPARATUS REQUIRED: 
-                   VIVADO 2023.2
+               VIVADO 2023.2
 
 PROCEDURE: 
-         STEP:1 Start the Xilinx navigator, Select and Name the New project. 
-         STEP:2 Select the device family, device, package and speed.
-         STEP:3 Select new source in the New Project and select Verilog Module                type. 
-         STEP:4 Type the File Name and Click Next and then finish button. Type the code and save  it. 
-         STEP:5 Select the Behavioral Simulation in the Source Window and click the check syntax. 
-         STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table. 
+       STEP1: Open Vivado: Launch Xilinx Vivado software on your computer.
+       STEP2: Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
+       STEP3: Project Settings: Follow the prompts to set up your project. Specify the project name, location, and select RTL project type.
+       STEP4: Add Design Files: Add your Verilog design files to the project. You can do this by right-clicking on "Design Sources" in the Sources window, then selecting "Add Sources". Choose your Verilog files from the file browser.
+       STEP5: Specify Simulation Settings: Go to "Simulation" > "Simulation Settings". Choose your simulation language (Verilog in this case) and simulation tool (Vivado Simulator).
+       STEP6: Run Simulation: Go to "Flow" > "Run Simulation" > "Run Behavioral Simulation". This will launch the Vivado Simulator and compile your design for simulation.
+       STEP7:Set Simulation Time: In the Vivado Simulator window, set the simulation time if it's not set automatically. This determines how long the simulation will run.
+       STEP8: Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
+       STEP9: View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
    
    LOGIC GATES LOGIC DIAGRAM 
   
