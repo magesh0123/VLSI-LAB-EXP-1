@@ -58,6 +58,9 @@ endmodule
 
 ![318347230-7496d74e-e18b-472e-96e0-f0de0e8ce4d2](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/9b16eb75-02ba-44a1-ad0e-4359269df4f1)
 
+# RTL DESIGN
+![324385249-ad868688-74fe-4070-a086-8eb25dfcec8c](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/1d820df5-f94b-4426-ab8d-28c4447b5b5d)
+
 # HALF ADDER LOGIC DIAGRAM
 
 ![318347383-8fa622b5-5e52-40f0-9690-833ffb2d832b](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/74dca018-5e8f-4a7d-98a3-4b5367a256f1)
@@ -79,6 +82,10 @@ endmodule
 # OUTPUT WAVEFORM
 
 ![318347595-6ccd3005-54bb-40bc-9e5b-90def2406528](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/cdadff86-6fd4-427c-a953-d967734b178f)
+
+# RTL DESIGN
+![324385052-9599b9cb-8f41-4321-9a66-4c63f99e90d7](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/1e6fcdf5-42a1-4993-b312-4f069ce9f785)
+
 
 # FULL ADDER LOGIC DIAGRAM
 
@@ -109,6 +116,10 @@ endmodule
 
 ![318347957-a056df39-4f5d-40ce-b697-b7457efbc14e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/b917f2c4-9e8b-46c6-9ba7-ede00114b606)
 
+# RTL DESIGN
+
+![324384779-a00a1428-41f1-419f-9c2c-09a19dc02593](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/220c8c0b-e617-460c-9f14-84aa8dd9dfa9)
+
 
 # HALF SUBTRACTOR LOGIC DIAGRAM
 
@@ -131,6 +142,9 @@ endmodule
 # OUTPUT WAVEFORM
 
 ![318348159-3e2416fe-b489-4e2a-925b-cf1b011b99d5](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/430a0f39-4391-45f8-bd71-d4c419ceb863)
+
+# RTL DESIGN 
+![324385099-44ef62e2-f75f-467b-bd39-00ed3cad081c](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/49f4fc7d-b42e-4110-9110-638568626fdd)
 
 
 
@@ -164,6 +178,9 @@ endmodule
 # OUTPUT WAVEFORM
 
 ![318348391-76f82a16-843e-4211-bed4-a698fe62a884](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/14899548-5476-4b71-ab9b-bc0a2ade848e)
+
+# RTL DESIGN
+![324384968-6aaf5330-2db0-4045-9357-5ba03e7187ae](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/ee12bc73-1a1c-491f-adce-ee8eab2f9ff4)
 
 
 # RIPPLE CARRY ADDER LOGIC DIAGRAM
@@ -202,7 +219,9 @@ endmodule
 # OUTPUT WAVEFORM
 
 ![318348668-c49e900c-4cda-4b35-a768-b613cf48fa3e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/ace5e1b9-8646-4663-92a6-970889baf4ec)
-
+# RTL DESIGN
+![324385309-f68c9678-9f0e-4caa-b93f-35261722fe55](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/267a8976-8a3d-4edd-8f86-625ce43a5a73)
+![324385352-ca0d8db1-719e-466d-bcf7-0c199390f62a](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/35e5df7d-3769-4e89-add0-70919bc356e6)
 
 # result
 
