@@ -58,7 +58,7 @@ endmodule
 
 ![318347230-7496d74e-e18b-472e-96e0-f0de0e8ce4d2](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/9b16eb75-02ba-44a1-ad0e-4359269df4f1)
 
-# HALF ADDER LOGIC DIAGRAM**
+# HALF ADDER LOGIC DIAGRAM
 
 ![318347383-8fa622b5-5e52-40f0-9690-833ffb2d832b](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/74dca018-5e8f-4a7d-98a3-4b5367a256f1)
 
@@ -110,7 +110,7 @@ endmodule
 ![318347957-a056df39-4f5d-40ce-b697-b7457efbc14e](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/b917f2c4-9e8b-46c6-9ba7-ede00114b606)
 
 
-# HALF SUBTRACTOR LOGIC DIAGRAM**
+# HALF SUBTRACTOR LOGIC DIAGRAM
 
 ![318348072-2d7824ed-0b1f-4ea0-bafc-1753a75d2b74](https://github.com/magesh0123/VLSI-LAB-EXP-1/assets/162102402/514f5c56-a79b-4384-88ae-f7ea48028f8f)
 
